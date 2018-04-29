@@ -1,0 +1,79 @@
+.test {
+    border: 1px solid #eeeeee;
+    position: relative;
+    width: 32%;
+    float: left;
+    margin: 0 0.5%;
+    transition: all 0.3s linear;
+}
+
+input.checkbox {}
+
+.test label.container_2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.test input.checkbox {
+    display: block;
+}
+
+.test span.checkmark_2 {
+    display: none;
+}
+
+span.checkmarkb {
+    position: absolute;
+    background: #fff;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    top: 0;
+}
+
+.test img {
+    width: 100%;
+    border: 0;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.test {}
+
+figcaption {
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.img_text p {
+    margin: 0;
+    padding: 0;
+}
+
+a.button {
+    text-decoration: none;
+    display: inline-block;
+    background: #F44336;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+.test:hover {
+    box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.3);
+}
+
+.test:hover figcaption {
+    color: #F44336;
+}
+
+div#column {
+    overflow: hidden;
+}

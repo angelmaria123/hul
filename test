@@ -1,0 +1,122 @@
+div#grids {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+ 
+}
+figure {
+    display: inline-block;
+    background: #FEFEFE;
+    border: 2px solid #FAFAFA;
+    width: 31%;
+    margin: 0px;
+    margin-bottom: 32px;
+}
+#columns figure img {
+    width: 100%;
+    display: inline-block;
+}
+.img_text{
+    margin-left: 36px;
+    margin-bottom: 19px;
+}
+figcaption {
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 600;
+   
+}
+
+#columns figure a{
+    line-height: 16px;
+}
+a.button {
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    background-color: #ff3333;
+    width: 140px;
+    height: 35px;
+    position: relative;
+    top: 12px;
+}
+a.button_1 {
+    padding: 5px;
+    text-align: center;
+    color: #ccc;
+    text-decoration: none;
+    background-color: #fff;
+    width: 140px;
+    border: 1px solid #ccc;
+    height: 35px;
+    position: relative;
+    top: 12px;
+} 
+figure:hover{
+ box-shadow: 0 0 1px #888;
+ padding: 9px;
+ }
+.container_2 {
+    display: block;
+}
+.container_2 input {
+    cursor: pointer;
+    display: none;
+
+}
+.checkmark_2 {
+    display: inline-block;
+    float:right;
+    height: 11px;
+    width: 11px;
+    background-color: #fff;
+    border: 2px solid #cccccc
+    
+}
+.container_2 input:checked ~ .checkmark_2 {
+    background-color:#0099cc;
+}
+.checkmark_2:after {
+    content: "";
+    display: none;
+}
+.container_1 {
+    display: block;
+    float:right;
+    font-size: 13px;
+    color: #333;
+   }
+.container_1  input {
+    cursor: pointer;
+    display: none;
+}
+.checkmark_1 {
+    display: inline-block;
+    float:left;
+    height: 11px;
+    width: 11px;
+    background-color: #fff;
+    border: 2px solid #cccccc;
+    margin-right: 5px;
+    margin-top: 3px;
+    
+}
+.container_1 input:checked ~ .checkmark_1 {
+    background-color:#0099cc;
+}
+.checkmark_1:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.grid_1{
+    width : 100%;
+    display: inline-block;
+    border-bottom: 2px solid #999; 
+}
+#columns p{
+    line-height: 16px;
+    margin:0;
+}
